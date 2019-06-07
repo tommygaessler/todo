@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
+## Clone source code
+
+Run `git clone https://github.com/tommygaessler/todo.git` and `cd todo`.
+
+## Install dependencies
+
+Run `npm install` to install the node_modules.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

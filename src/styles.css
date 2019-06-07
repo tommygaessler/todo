@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+* {
+  font-family: 'Mandali', sans-serif;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mat-list-item-content {
+  justify-content: space-between;
+}
+
+.mat-checkbox-layout .mat-checkbox-label {
+  white-space: normal;
+  word-break: break-word;
+}
+
+@media (max-width: 800px) {
+  .row {
+    display: block;
+  }
+
+  .column {
+    margin: 0;
+  }
+}
