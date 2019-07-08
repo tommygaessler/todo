@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { TodoComponent } from './components/todo/todo.component';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -13,13 +12,15 @@ import {
   MatCheckboxModule,
   MatIconModule,
   MatListModule,
-  MatDividerModule
+  MatDividerModule,
+  MatBadgeModule
 } from '@angular/material';
+import { CounterPipe } from './pipes/counter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodoComponent
+    CounterPipe
   ],
   imports: [
     BrowserModule,
@@ -31,7 +32,8 @@ import {
     MatCheckboxModule,
     MatIconModule,
     MatListModule,
-    MatDividerModule
+    MatDividerModule,
+    MatBadgeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
