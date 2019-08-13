@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
+Deployed site: https://tommygaessler.com/todo/
+
 ## Clone source code
 
 Run `git clone https://github.com/tommygaessler/todo.git` and `cd todo`.
